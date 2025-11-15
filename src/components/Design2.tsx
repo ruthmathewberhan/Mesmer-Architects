@@ -72,19 +72,18 @@ export function Design2({ onBackToSelector }: Design2Props) {
   return (
     <div className="min-h-screen bg-white text-black">
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-transparent backdrop-blur-sm"></div>
-        <div className="relative container mx-auto px-6 py-6 flex items-center justify-between">
-          <button onClick={onBackToSelector} className="flex items-center gap-3 hover:opacity-70 transition-opacity">
-            <span className="text-white tracking-widest">MESMER</span>
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm">
+        <div className="container mx-auto px-8 py-6 flex items-center justify-between">
+          <button onClick={onBackToSelector} className="hover:opacity-70 transition-opacity">
+            <span className="tracking-widest">ATELIER</span>
           </button>
           
           <nav className="hidden md:flex items-center gap-12">
-            <button onClick={() => setCurrentPage('home')} className={`relative text-white ${currentPage === 'home' ? 'after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[1px] after:bg-red-600' : ''} hover:opacity-70 transition-opacity`}>Home</button>
-            <button onClick={() => setCurrentPage('about')} className={`relative text-white ${currentPage === 'about' ? 'after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[1px] after:bg-red-600' : ''} hover:opacity-70 transition-opacity`}>About</button>
-            <button onClick={() => setCurrentPage('portfolio')} className={`relative text-white ${currentPage === 'portfolio' ? 'after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[1px] after:bg-red-600' : ''} hover:opacity-70 transition-opacity`}>Portfolio</button>
-            <button onClick={() => setCurrentPage('gallery')} className={`relative text-white ${currentPage === 'gallery' ? 'after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[1px] after:bg-red-600' : ''} hover:opacity-70 transition-opacity`}>Gallery</button>
-            <button onClick={() => setCurrentPage('contact')} className={`relative text-white ${currentPage === 'contact' ? 'after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[1px] after:bg-red-600' : ''} hover:opacity-70 transition-opacity`}>Contact</button>
+            <button onClick={() => setCurrentPage('home')} className={`relative ${currentPage === 'home' ? 'after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[1px] after:bg-red-600' : ''} hover:opacity-70 transition-opacity`}>Home</button>
+            <button onClick={() => setCurrentPage('about')} className={`relative ${currentPage === 'about' ? 'after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[1px] after:bg-red-600' : ''} hover:opacity-70 transition-opacity`}>About</button>
+            <button onClick={() => setCurrentPage('portfolio')} className={`relative ${currentPage === 'portfolio' ? 'after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[1px] after:bg-red-600' : ''} hover:opacity-70 transition-opacity`}>Portfolio</button>
+            <button onClick={() => setCurrentPage('gallery')} className={`relative ${currentPage === 'gallery' ? 'after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[1px] after:bg-red-600' : ''} hover:opacity-70 transition-opacity`}>Gallery</button>
+            <button onClick={() => setCurrentPage('contact')} className={`relative ${currentPage === 'contact' ? 'after:absolute after:bottom-[-8px] after:left-0 after:w-full after:h-[1px] after:bg-red-600' : ''} hover:opacity-70 transition-opacity`}>Contact</button>
           </nav>
 
           <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden">
@@ -96,11 +95,11 @@ export function Design2({ onBackToSelector }: Design2Props) {
         {menuOpen && (
           <div className="md:hidden bg-white border-t border-black/10">
             <nav className="flex flex-col p-8 gap-6">
-              <button onClick={() => { setCurrentPage('home'); setMenuOpen(false); }} className="text-left text-black hover:opacity-70 transition-opacity">Home</button>
-              <button onClick={() => { setCurrentPage('about'); setMenuOpen(false); }} className="text-left text-black hover:opacity-70 transition-opacity">About</button>
-              <button onClick={() => { setCurrentPage('portfolio'); setMenuOpen(false); }} className="text-left text-black hover:opacity-70 transition-opacity">Portfolio</button>
-              <button onClick={() => { setCurrentPage('gallery'); setMenuOpen(false); }} className="text-left text-black hover:opacity-70 transition-opacity">Gallery</button>
-              <button onClick={() => { setCurrentPage('contact'); setMenuOpen(false); }} className="text-left text-black hover:opacity-70 transition-opacity">Contact</button>
+              <button onClick={() => { setCurrentPage('home'); setMenuOpen(false); }} className="text-left hover:opacity-70 transition-opacity">Home</button>
+              <button onClick={() => { setCurrentPage('about'); setMenuOpen(false); }} className="text-left hover:opacity-70 transition-opacity">About</button>
+              <button onClick={() => { setCurrentPage('portfolio'); setMenuOpen(false); }} className="text-left hover:opacity-70 transition-opacity">Portfolio</button>
+              <button onClick={() => { setCurrentPage('gallery'); setMenuOpen(false); }} className="text-left hover:opacity-70 transition-opacity">Gallery</button>
+              <button onClick={() => { setCurrentPage('contact'); setMenuOpen(false); }} className="text-left hover:opacity-70 transition-opacity">Contact</button>
             </nav>
           </div>
         )}
@@ -123,10 +122,10 @@ export function Design2({ onBackToSelector }: Design2Props) {
                   <div className="max-w-3xl">
                     <div className="flex items-center gap-4 mb-6">
                       <div className="w-16 h-1 bg-red-600"></div>
-                      <span className="text-white">Mesmer Architects</span>
+                      <span className="text-white">Architecture Studio</span>
                     </div>
-                    <h1 className="mb-6 text-white">Mesmerizing<br/>Line</h1>
-                    <p className="max-w-xl mb-8 text-white">Since 2009, creating architectural statements that transform cityscapes and redefine what's possible in modern design</p>
+                    <h1 className="mb-6 text-white">Redefining<br/>Urban Spaces</h1>
+                    <p className="max-w-xl mb-8 text-white">Bold architectural statements that transform cityscapes and redefine what's possible in modern design</p>
                   </div>
                 </div>
               </div>
@@ -146,9 +145,9 @@ export function Design2({ onBackToSelector }: Design2Props) {
                   </div>
                   <div>
                     <p className="text-red-600 mb-4">Who We Are</p>
-                    <h2 className="mb-6">Mesmerizing Design Excellence</h2>
-                    <p className="mb-6">Mesmer Architects & Engineers plc is a forward-thinking architectural firm established in 2009, specializing in contemporary design that pushes boundaries while respecting context and community.</p>
-                    <p className="mb-8">Our "Mesmerizing Line" philosophy combines cutting-edge technology with timeless design principles, creating spaces that are both innovative and enduring.</p>
+                    <h2 className="mb-6">Pioneering Design Excellence</h2>
+                    <p className="mb-6">Atelier is a forward-thinking architectural firm specializing in contemporary design that pushes boundaries while respecting context and community.</p>
+                    <p className="mb-8">Our approach combines cutting-edge technology with timeless design principles, creating spaces that are both innovative and enduring.</p>
                     <button onClick={() => setCurrentPage('about')} className="bg-red-600 text-white px-8 py-3 hover:bg-red-700 transition-colors">
                       Learn More
                     </button>
