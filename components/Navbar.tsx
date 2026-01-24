@@ -17,6 +17,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
     { name: 'About', path: '/about' },
     { name: 'Portfolio', path: '/portfolio' },
     { name: 'Gallery', path: '/gallery' },
+    { name: 'Contact', path: '/contact' }
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -26,11 +27,11 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
       {/* Top Gradient Overlay for readability on light images */}
       <div className={`absolute inset-0 h-32 pointer-events-none opacity-40 ${theme === 'dark' ? 'bg-gradient-to-b from-black to-transparent' : 'bg-gradient-to-b from-gray-200 to-transparent'}`}></div>
       
-      <div className="max-w-[1800px] mx-auto px-6 md:px-12 h-24 flex items-center justify-between relative z-10">
+      <div className="fixed top-0 w-full z-50 px-6 py-8 md:px-12 flex justify-between items-center bg-transparent backdrop-blur-sm">
         <Link to="/" className="flex items-center gap-3 group">
           <div className="w-8 h-8 bg-red-600"></div>
           <span className={`font-serif font-bold text-2xl tracking-tighter ${theme === 'dark' ? 'text-white' : 'text-black'}`}>
-            ELEMENT
+            MESMER
           </span>
         </Link>
 
@@ -41,7 +42,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`font-serif text-lg transition-colors ${
+                className={`uppercase text-sm tracking-[0.3em] font-semibold hover:text-primary transition-colors ${
                   isActive(link.path) ? 'text-red-600' : theme === 'dark' ? 'text-white hover:text-red-600' : 'text-black hover:text-red-600'
                 }`}
               >
@@ -51,12 +52,6 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
           </div>
           
           <div className="flex items-center gap-6">
-            <Link
-              to="/contact"
-              className="px-8 py-3 bg-red-600 text-white hover:bg-black transition-all text-sm font-bold font-sans uppercase tracking-widest"
-            >
-              Contact
-            </Link>
             <button
               onClick={toggleTheme}
               className={`p-2 transition-transform hover:scale-110 ${theme === 'dark' ? 'text-white' : 'text-black'}`}

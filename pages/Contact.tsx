@@ -8,27 +8,24 @@ const Contact: React.FC<{ theme: Theme }> = ({ theme }) => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
         <div>
           <span className="text-red-600 uppercase tracking-widest font-bold text-sm block mb-4">Get In Touch</span>
-          <h1 className="font-serif text-6xl md:text-8xl mb-12">Let's <span className="text-red-600 italic">Build</span></h1>
+          <h1 className="font-serif text-4xl md:text-5xl mb-12">Let's <span className="text-red-600 italic">Build</span></h1>
           
           <div className="space-y-12">
             <div>
               <h3 className="text-red-600 uppercase text-xs tracking-[0.5em] font-bold mb-4">Our Offices</h3>
               <div className="grid grid-cols-2 gap-8">
                 <div>
-                  <h4 className="font-serif text-xl mb-2">Berlin HQ</h4>
-                  <p className="opacity-60 text-sm">Alexanderplatz 4, <br />Berlin, Germany</p>
-                </div>
-                <div>
-                  <h4 className="font-serif text-xl mb-2">Tokyo Studio</h4>
-                  <p className="opacity-60 text-sm">Minato City, <br />Tokyo, Japan</p>
+                  <h4 className="font-serif text-xl mb-2">Addis Ababa</h4>
+                  <p className="opacity-60 text-sm">Bole road, Wello Sefer<br /> Gs Trading Building <br />Addis Ababa, Ethiopia</p>
                 </div>
               </div>
             </div>
 
             <div>
               <h3 className="text-red-600 uppercase text-xs tracking-[0.5em] font-bold mb-4">Digital</h3>
-              <p className="font-serif text-2xl">hello@stark-crimson.com</p>
-              <p className="font-serif text-2xl">+49 (0) 30 1234 5678</p>
+              <p className="font-serif text-2xl">mesmer.architects.cae@gmail.com</p>
+              <p className="font-serif text-2xl">+251-912-127909</p>
+              <p className="font-serif text-2xl">+251-911-224498</p>
             </div>
           </div>
         </div>

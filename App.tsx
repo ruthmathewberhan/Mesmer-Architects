@@ -56,9 +56,9 @@ const App: React.FC = () => {
         <footer className={`py-20 px-6 md:px-24 border-t ${theme === 'dark' ? 'border-white/10 bg-black' : 'border-black/5 bg-white'}`}>
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-20">
             <div>
-              <div className="w-12 h-12 bg-red-600 flex items-center justify-center font-sans text-white font-bold text-2xl mb-6">E</div>
+              <div className="w-12 h-12 bg-red-600 flex items-center justify-center font-sans text-white font-bold text-2xl mb-6">M</div>
               <p className={`opacity-50 max-w-xs font-sans text-sm ${theme === 'dark' ? 'text-white' : 'text-black'}`}>
-                ELEMENT Architectural excellence through radical minimalism and dramatic spatial storytelling.
+                MESMER Architectural excellence through radical minimalism and dramatic spatial storytelling.
               </p>
             </div>
             <div>
@@ -80,7 +80,7 @@ const App: React.FC = () => {
             </div>
           </div>
           <div className={`mt-20 pt-10 border-t ${theme === 'dark' ? 'border-white/5' : 'border-black/5'} flex flex-col md:flex-row justify-between opacity-30 text-xs uppercase tracking-widest font-bold`}>
-            <p>© 2024 ELEMENT Architecture Studio</p>
+            <p>© 2024 MESMER Architecture Studio</p>
             <p>Designed with Intent</p>
           </div>
         </footer>

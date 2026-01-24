@@ -16,9 +16,9 @@ const Home: React.FC<{ theme: Theme }> = ({ theme }) => {
           <img 
             src="https://images.unsplash.com/photo-1547669205-39038d0a1df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMGFyY2hpdGVjdHVyZSUyMGJ1aWxkaW5nfGVufDF8fHx8MTc2MzAzNjUwN3ww&ixlib=rb-4.1.0&q=80&w=1080" 
             alt="Urban Architecture" 
-            className="w-full h-full object-cover grayscale brightness-50"
+            className="w-full h-full object-cover brightness-50"
           />
-          <div className="absolute inset-0 bg-black/20"></div>
+          {/* <div className="absolute inset-0 "></div> */}
         </div>
 
         <div className="z-10 relative max-w-4xl">
@@ -26,7 +26,7 @@ const Home: React.FC<{ theme: Theme }> = ({ theme }) => {
             <div className="w-12 h-1 bg-red-600"></div>
             <span className="text-white uppercase tracking-widest font-bold text-sm">Architecture Studio</span>
           </div>
-          <h1 className="font-serif text-6xl md:text-8xl leading-[1.1] tracking-tight mb-8 text-white">
+          <h1 className="font-serif text-5xl md:text-7xl leading-[1.1] tracking-tight mb-8 text-white">
             Redefining <br />
             Urban Spaces
           </h1>
@@ -61,7 +61,7 @@ const Home: React.FC<{ theme: Theme }> = ({ theme }) => {
             
             <div className={`space-y-6 text-lg font-sans leading-relaxed ${theme === 'dark' ? 'text-white/60' : 'text-black/70'}`}>
               <p>
-                Element is a forward-thinking architectural firm specializing in contemporary design that pushes boundaries while respecting context and community.
+                MESMER is a forward-thinking architectural firm specializing in contemporary design that pushes boundaries while respecting context and community.
               </p>
               <p>
                 Our approach combines cutting-edge technology with timeless design principles, creating spaces that are both innovative and enduring.

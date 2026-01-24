@@ -8,7 +8,7 @@ const Gallery: React.FC<{ theme: Theme }> = ({ theme }) => {
     <div className="min-h-screen pt-40 px-6 md:px-24 pb-32">
       <header className="mb-20">
         <span className="text-red-600 uppercase tracking-widest font-bold text-sm block mb-4">Fragments</span>
-        <h1 className="font-serif text-6xl md:text-8xl">The <span className="text-red-600 italic">Gallery</span></h1>
+        <h1 className="font-serif text-4xl md:text-5xl">The <span className="text-red-600 italic">Gallery</span></h1>
       </header>
 
       <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">

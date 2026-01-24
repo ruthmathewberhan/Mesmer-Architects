@@ -9,12 +9,12 @@ const About: React.FC<{ theme: Theme }> = ({ theme }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           <div>
             <span className="text-red-600 uppercase tracking-widest font-bold text-sm block mb-4">Our Legacy</span>
-            <h1 className="font-serif text-6xl md:text-[7rem] leading-[0.9] mb-12">
+            <h1 className="font-serif text-4xl md:text-7xl leading-[0.9] mb-12">
               BUILDING <br /> THE <span className="text-red-600">FUTURE</span>
             </h1>
             <div className="space-y-8 text-xl font-sans opacity-80 max-w-xl">
               <p>
-                Established in 2008 by Marcus Stark and Elena Crimson, our firm was born out of a desire to break away from the ornament-heavy designs of the past. 
+                Established in 2008 by Bruck Asrat Haile, our firm was born out of a desire to break away from the ornament-heavy designs of the past. 
               </p>
               <p>
                 We believe that architecture is a dialogue between light, shadow, and raw materials. Every line we draw is a statement of intent.
@@ -42,7 +42,7 @@ const About: React.FC<{ theme: Theme }> = ({ theme }) => {
         <h2 className="font-serif text-5xl mb-20 text-center">Creative <span className="text-red-600">Mindset</span></h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {[
-            { name: 'Marcus Stark', role: 'Principal Architect', img: 'https://picsum.photos/seed/m1/400/500' },
+            { name: 'Bruck Asrat Haile', role: 'Principal Architect & General Manager', img: 'https://picsum.photos/seed/m1/400/500' },
             { name: 'Elena Crimson', role: 'Lead Designer', img: 'https://picsum.photos/seed/m2/400/500' },
             { name: 'Sven Nordling', role: 'Structural Director', img: 'https://picsum.photos/seed/m3/400/500' },
           ].map((member) => (

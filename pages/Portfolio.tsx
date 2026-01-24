@@ -16,7 +16,7 @@ const Portfolio: React.FC<{ theme: Theme }> = ({ theme }) => {
     <div className="min-h-screen pt-40 px-6 md:px-24 pb-32">
       <header className="mb-20">
         <span className="text-red-600 uppercase tracking-widest font-bold text-sm block mb-4">Case Studies</span>
-        <h1 className="font-serif text-6xl md:text-8xl mb-12">Our <span className="text-red-600 italic">Portfolio</span></h1>
+        <h1 className="font-serif text-4xl md:text-5xl mb-12">Our <span className="text-red-600 italic">Portfolio</span></h1>
         
         <div className="flex flex-wrap gap-4 md:gap-8">
           {categories.map(cat => (

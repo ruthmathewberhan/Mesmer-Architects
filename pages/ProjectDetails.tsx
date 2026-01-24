@@ -29,7 +29,7 @@ const ProjectDetails: React.FC<{ theme: Theme }> = ({ theme }) => {
            <Link to="/portfolio" className="text-red-600 uppercase tracking-widest text-xs font-bold mb-4 inline-block hover:underline">
              ← Back to Portfolio
            </Link>
-           <h1 className="font-serif text-5xl md:text-6xl mb-2 leading-tight">
+           <h1 className="font-serif text-4xl md:text-5xl mb-2 leading-tight">
              {project.title}
            </h1>
            <p className="text-red-600 opacity-80 uppercase tracking-widest font-sans font-bold">
