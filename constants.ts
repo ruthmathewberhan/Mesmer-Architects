@@ -9,13 +9,13 @@ export const PROJECTS: Project[] = [
     year: '2024',
     category: 'Residential',
     description: 'A masterpiece of modern minimalism integrated into the lush landscape of Saint Lucia. This project explores the intersection of brutalist concrete forms and organic wooden textures, creating a living space that feels both fortified and open to the Caribbean breeze.',
-    mainImage: 'https://picsum.photos/seed/arch1/1200/800',
+    mainImage: '../assets/images/afrika.jpg',
     gallery: [
-      'https://picsum.photos/seed/arch1/1200/800',
-      'https://picsum.photos/seed/arch1-2/1200/800',
-      'https://picsum.photos/seed/arch1-3/1200/800',
-      'https://picsum.photos/seed/arch1-4/1200/800',
-      'https://picsum.photos/seed/arch1-5/1200/800'
+      '../assets/images/afrika.jpg',
+      '../assets/images/afrika1.jpg',
+      '../assets/images/afrika3.jpg',
+      '../assets/images/afrika4.jpg',
+      '../assets/images/afrika6.jpg'
     ]
   },
   {
@@ -25,11 +25,18 @@ export const PROJECTS: Project[] = [
     year: '2023',
     category: 'Commercial',
     description: 'An office complex that defies traditional workspace aesthetics. The building features a striking red glass facade that creates a dynamic light show throughout the day.',
-    mainImage: 'https://picsum.photos/seed/arch2/1200/800',
+    mainImage: '../assets/images/VillaShaka.jpg',
     gallery: [
-      'https://picsum.photos/seed/arch2/1200/800',
-      'https://picsum.photos/seed/arch2-2/1200/800',
-      'https://picsum.photos/seed/arch2-3/1200/800'
+      '../assets/images/VillaShaka.jpg',
+      '../assets/images/VillaShaka2.jpg',
+      '../assets/images/VillaShaka6.jpg',
+      '../assets/images/VillaShaka4.jpg',
+      '../assets/images/VillaShaka5.jpg',
+      '../assets/images/VillaShaka7.jpg',
+      '../assets/images/VillaShaka8.jpg',
+      '../assets/images/VillaShaka9.jpg',
+      '../assets/images/VillaShaka10.jpg'
+      
     ]
   },
   {
@@ -39,11 +46,25 @@ export const PROJECTS: Project[] = [
     year: '2022',
     category: 'Public',
     description: 'A fusion of traditional Japanese spatial concepts and radical modern materials. The pavilion serves as a quiet sanctuary within the bustling city.',
-    mainImage: 'https://picsum.photos/seed/arch3/1200/800',
+    mainImage: '../assets/images/luxappartment.jpg',
     gallery: [
-      'https://picsum.photos/seed/arch3/1200/800',
-      'https://picsum.photos/seed/arch3-2/1200/800',
-      'https://picsum.photos/seed/arch3-3/1200/800'
+      '../assets/images/luxappartment.jpg',
+      '../assets/images/luxappartment1.jpg',
+      '../assets/images/luxappartment3.jpg',
+      '../assets/images/luxappartment4.jpg',
+      '../assets/images/luxappartment5.jpg',
+      '../assets/images/luxappartment6.jpg',
+      '../assets/images/luxappartment7.jpg',
+      '../assets/images/luxappartment11.jpg',
+      '../assets/images/luxappartment12.jpg',
+      '../assets/images/luxappartment13.jpg',
+      '../assets/images/luxappartment14.jpg',
+      '../assets/images/luxappartment16.jpg',
+      '../assets/images/luxappartment17.jpg',
+      '../assets/images/luxappartment18.jpg',
+      '../assets/images/luxappartment19.jpg',
+      '../assets/images/luxappartment21.jpg',
+
     ]
   },
   {
@@ -53,22 +74,31 @@ export const PROJECTS: Project[] = [
     year: '2025',
     category: 'Residential',
     description: 'Designed around a central courtyard that frames the star-filled desert sky, the Void House uses raw earth materials and stark geometric openings.',
-    mainImage: 'https://picsum.photos/seed/arch4/1200/800',
+    mainImage: '../assets/images/print1.jpg',
     gallery: [
-      'https://picsum.photos/seed/arch4/1200/800',
-      'https://picsum.photos/seed/arch4-2/1200/800',
-      'https://picsum.photos/seed/arch4-3/1200/800'
+      '../assets/images/print1.jpg',
+      '../assets/images/print2.jpg',
+      '../assets/images/print3.jpg',
+      '../assets/images/print4.jpg'
     ]
   }
 ];
 
 export const GALLERY: GalleryItem[] = [
-  { id: '1', imageUrl: 'https://picsum.photos/seed/g1/800/1000', title: 'Concrete Angles', category: 'Detail' },
-  { id: '2', imageUrl: 'https://picsum.photos/seed/g2/1000/800', title: 'Sunset Reflection', category: 'Exterior' },
-  { id: '3', imageUrl: 'https://picsum.photos/seed/g3/800/800', title: 'Spiral Ascend', category: 'Interior' },
-  { id: '4', imageUrl: 'https://picsum.photos/seed/g4/900/1200', title: 'Minimal Kitchen', category: 'Residential' },
-  { id: '5', imageUrl: 'https://picsum.photos/seed/g5/1200/800', title: 'Glass Facade', category: 'Commercial' },
-  { id: '6', imageUrl: 'https://picsum.photos/seed/g6/800/1000', title: 'The Red Beam', category: 'Detail' },
-  { id: '7', imageUrl: 'https://picsum.photos/seed/g7/1000/1000', title: 'Shadow Play', category: 'Exterior' },
-  { id: '8', imageUrl: 'https://picsum.photos/seed/g8/1100/700', title: 'Urban Loft', category: 'Interior' },
+  { id: '1', imageUrl: '../assets/images/afrika.jpg', title: 'Concrete Angles', category: 'Detail' },
+  { id: '2', imageUrl: '../assets/images/afrika1.jpg', title: 'Sunset Reflection', category: 'Exterior' },
+  { id: '3', imageUrl: '../assets/images/afrika3.jpg', title: 'Spiral Ascend', category: 'Interior' },
+  { id: '4', imageUrl: '../assets/images/afrika4.jpg', title: 'Minimal Kitchen', category: 'Residential' },
+  { id: '5', imageUrl: '../assets/images/afrika6.jpg', title: 'Glass Facade', category: 'Commercial' },
+  { id: '6', imageUrl: '../assets/images/villa1.jpg', title: 'The Red Beam', category: 'Detail' },
+  { id: '7', imageUrl: '../assets/images/villa3.jpg', title: 'Shadow Play', category: 'Exterior' },
+  { id: '8', imageUrl: '../assets/images/VillaShaka.jpg', title: 'Urban Loft', category: 'Interior' },
+  { id: '9', imageUrl: '../assets/images/villaShaka2.jpg', title: 'Concrete Angles', category: 'Detail' },
+  { id: '10', imageUrl: '../assets/images/villaShaka4.jpg', title: 'Sunset Reflection', category: 'Exterior' },
+  { id: '11', imageUrl: '../assets/images/villaShaka5.jpg', title: 'Spiral Ascend', category: 'Interior' },
+  { id: '12', imageUrl: '../assets/images/villaShaka6.jpg', title: 'Minimal Kitchen', category: 'Residential' },
+  { id: '13', imageUrl: '../assets/images/villaShaka7.jpg', title: 'Glass Facade', category: 'Commercial' },
+  { id: '14', imageUrl: '../assets/images/villaShaka8.jpg', title: 'The Red Beam', category: 'Detail' },
+  { id: '15', imageUrl: '../assets/images/villaShaka9.jpg', title: 'Shadow Play', category: 'Exterior' },
+  { id: '16', imageUrl: '../assets/images/villaShaka10.jpg', title: 'Urban Loft', category: 'Interior' },
 ];
