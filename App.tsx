@@ -58,7 +58,7 @@ const App: React.FC = () => {
             <div>
               <div className="w-12 h-12 bg-red-600 flex items-center justify-center font-sans text-white font-bold text-2xl mb-6">M</div>
               <p className={`opacity-50 max-w-xs font-sans text-sm ${theme === 'dark' ? 'text-white' : 'text-black'}`}>
-                MESMER Architectural excellence through radical minimalism and dramatic spatial storytelling.
+                MESMER Architecturals excellence through radical minimalism and dramatic spatial storytelling.
               </p>
             </div>
             <div>
