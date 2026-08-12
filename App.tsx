@@ -75,7 +75,7 @@ const App: React.FC = () => {
               <ul className={`space-y-4 font-sans uppercase tracking-tighter text-sm ${theme === 'dark' ? 'text-white' : 'text-black'}`}>
                 <li><a href="#" className="hover:text-red-600 transition-colors">Instagram</a></li>
                 <li><a href="#" className="hover:text-red-600 transition-colors">LinkedIn</a></li>
-                <li><a href="#" className="hover:text-red-600 transition-colors">Behance</a></li>
+                <li><a href="#" className="hover:text-red-600 transition-colors">Tiktok</a></li>
               </ul>
             </div>
           </div>

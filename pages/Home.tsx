@@ -14,7 +14,7 @@ const Home: React.FC<{ theme: Theme }> = ({ theme }) => {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1547669205-39038d0a1df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMGFyY2hpdGVjdHVyZSUyMGJ1aWxkaW5nfGVufDF8fHx8MTc2MzAzNjUwN3ww&ixlib=rb-4.1.0&q=80&w=1080" 
+            src="/complex1.jpg" 
             alt="Urban Architecture" 
             className="w-full h-full object-cover brightness-50"
           />
@@ -43,7 +43,7 @@ const Home: React.FC<{ theme: Theme }> = ({ theme }) => {
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800" 
+                src="/luxappartmentOffice5.jpg" 
                 alt="Who We Are Architecture" 
                 className={`w-full h-full object-cover ${theme === 'dark' ? 'grayscale' : ''}`}
               />

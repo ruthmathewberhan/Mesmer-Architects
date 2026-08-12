@@ -83,6 +83,7 @@ const ProjectDetails: React.FC<{ theme: Theme }> = ({ theme }) => {
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-16 max-w-7xl mx-auto">
           <div className="md:col-span-2">
              <h2 className="font-serif text-3xl mb-8 border-b border-red-600/30 pb-4 inline-block">Design Philosophy</h2>
+             <h3 className="font-serif text-2xl mb-6 italic">{project.type}</h3>
              <p className={`text-xl font-sans leading-relaxed opacity-80 ${theme === 'dark' ? 'text-white' : 'text-black'}`}>
                {project.description}
              </p>

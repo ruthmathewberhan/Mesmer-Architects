@@ -8,6 +8,8 @@ export interface Project {
   description: string;
   mainImage: string;
   gallery: string[];
+  type?: string; 
+  designStyle?: string;
 }
 
 export interface GalleryItem {

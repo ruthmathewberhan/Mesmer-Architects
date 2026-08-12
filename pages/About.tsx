@@ -26,7 +26,7 @@ const About: React.FC<{ theme: Theme }> = ({ theme }) => {
           </div>
           <div className="relative">
             <img 
-              src="https://picsum.photos/seed/founders/800/1000" 
+              src="/joyouslux1.jpg" 
               alt="Founders" 
               className="w-full h-[70vh] object-cover grayscale"
             />
@@ -42,9 +42,9 @@ const About: React.FC<{ theme: Theme }> = ({ theme }) => {
         <h2 className="font-serif text-5xl mb-20 text-center">Creative <span className="text-red-600">Mindset</span></h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {[
-            { name: 'Bruck Asrat Haile', role: 'Principal Architect & General Manager', img: 'https://picsum.photos/seed/m1/400/500' },
-            { name: 'Elena Crimson', role: 'Lead Designer', img: 'https://picsum.photos/seed/m2/400/500' },
-            { name: 'Sven Nordling', role: 'Structural Director', img: 'https://picsum.photos/seed/m3/400/500' },
+            { name: 'Bruck Asrat Haile', role: 'Principal Architect & General Manager', img: '/boleHomes.jpg' },
+            { name: 'Elena Crimson', role: 'Lead Designer', img: '/villa3.jpg' },
+            { name: 'Sven Nordling', role: 'Structural Director', img: '/b3.jpg' },
           ].map((member) => (
             <div key={member.name} className="group cursor-pointer">
               <div className="overflow-hidden aspect-[4/5] mb-6 relative">
